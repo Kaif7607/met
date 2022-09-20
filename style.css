@@ -1,3 +1,350 @@
-body {
-    font-size: 15pt;
+@font-face {
+    font-family: E;
+    src:url('/Evogria.otf');
+ }
+ @font-face  {
+     font-family: 'navigation';
+     src: url('/Caston.ttf');
+ }
+ @font-face  {
+     font-family: 'lead';
+     src: url('/Tattoo Rocker.ttf');
+ }
+ @font-face  {
+     font-family: 'bubble';
+     src: url('/Bubblegum.ttf');
+ }
+ @font-face  {
+     font-family: 'coco';
+     src: url('/CocoSharp Trial Regular 400.ttf');
+ }
+ @font-face  {
+     font-family: 'B';
+     src: url('/Blacklisted.ttf');
+ }
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: E;
+    
+    }
+body{
+background: url("/bg.jpg");
+    background-size: 120vw , 10vw;
+    
+    
+   
+}    
+.headi{
+    height: 3vw;
+    width: 100%;
+   /* border: blue solid 3vw;*/
+    margin: 3vw;
+    margin-top: 5vw;
+}
+header{
+    font-family: navigation;
+    font-size: 8vw;
+    color: red;
+    margin-left: 1vw;
+    margin-top: 1vw;
+    position: relative;
+    bottom: 2vw;
+    
+}
+.logo{
+    height: 10vw;
+    width: 12vw;
+    position: relative;
+    left: 85vw;
+    bottom: 11vw;
+    
+}
+ nav{
+    
+    margin-top: 2vw;
+    padding: 0;
+    background-color: #d4001a;
+    
+    
+}
+nav ul{
+    margin-left: 2vw;
+    
+}
+nav ul li{
+    display: inline;
+    
+    
+}
+nav ul li a{
+    margin-left: 2vw;
+    color: black;
+    font-family: E;
+    font-size: 4vw;
+    
+}
+.select{
+    color: red;
+    background: black;
+    border: solid black 2px;
+}
+.quote{
+    color: #66666f;
+    margin-top: 12vw;
+    margin-left: 5vw;
+    font-size: 3vw;
+}
+.login{
+    position: absolute;
+    right: 3vw;
+    height: 8vw;
+    width: 14vw;
+    background: red;
+    color: black;
+    border-radius: 6vw;
+    font-family: coco;
+    font-size: 3vw;
+    
+}
+.signup{
+    position: absolute;
+    right: 3vw;
+    top: 45vw;
+    text-decoration: none;
+    height: 8vw;
+    width: 14vw;
+    background: red;
+    color: black;
+    border-radius: 6vw;
+    font-family: coco;
+    font-size: 3vw;
+    
+}    
+.quotehead{
+    color: gray;
+    margin-top: 6vw;
+    margin-left: 4vw;
+    font-family: coco;
+    font-size: 10vw;
+}
+.quotetwo{
+    color: gray;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    font-size: 5.5vw;
+}
+.quotethree{
+    color: gray;
+    margin-top: 3vw;
+    margin-left: 5vw;
+    font-size: 4.3vw;
+}
+.floata{
+    height: 24vw;
+    width: 32vw;
+    border: solid red 1vw ;
+    color: red;
+    margin-top: 15vw;
+    margin-left: 55vw;
+    background: red;
+    border-radius: 1vw;
+    
+}
+.floatb{
+     height: 24vw;
+    width: 32vw;
+    border: solid red 1vw ;
+    color: red;
+    margin-top: 15vw;
+    margin-left: 13vw;
+    background: red;
+    border-radius: 1vw;
+    
+}
+.floatc{
+     height: 24vw;
+    width: 32vw;
+    border: solid red 1vw ;
+    color: red;
+    margin-top: 15vw;
+    margin-left: 55vw;
+    margin-bottom: 15vw;
+    background: red;
+    border-radius: 1vw;
+    
+}
+.footer{
+    height: 2vw;
+    width: 100%;
+    border: solid red 1vw;
+    background: red;
+    margin-bottom: 0vw;
+    padding: 0px;
+    position: static;
+    bottom: 0px;
+    }
+    
+.footernote{
+    color: black;
+    font-size: 1.5vw;
+    text-align: center;
+    position: relative;
+    bottom: 0.7vw;
+    
+}        
+.contacthead{
+    color: black;
+    text-align: center;
+    font-family: E;
+    
+    font-size: 8vw;
+    position: relative;
+    top: 5vw;
+    text-decoration: underline;
+
+    
+    
+    
+}
+.contactcard{
+    height: 170vw;
+    width: 90%;
+    margin-left: 5%;
+    background: red;
+    margin-bottom: 1vw;
+    margin-top: 5vw;
+    border-radius: 1vw;
+    
+    
+} 
+.contdetail{
+    border: solid black 1vw;
+    border-radius: 1vw;
+    height: 35vw;
+    width: 50vw;
+    position: relative;
+    top: 55vw;
+    left: 19vw;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 8vw;
+}
+.aboutdetail{
+    position: relative;
+    top: 15vw;
+    margin: 5vw;
+    font-size: 3vw;
+    
+}
+.serviceheader{
+    text-align: center;
+    color: red;
+    font-family: E;
+    font-size: 8vw;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+}
+.serviceboxcont{
+    height: 36vw;
+}
+.servicebox{
+    background: red;
+    height: 30vw;
+    width: 45vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 2vw;
+    
+}
+.serviceboxtwo{
+    
+    background: red;
+    height: 30vw;
+    width: 45vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: 2vw;
+    position: relative;
+    left: 50vw;
+    bottom: 33vw;
+}
+.loginpop{
+    border: solid 1vw black;
+    margin: 2vw;
+    position: relative;
+    top: 30vw;
+    left: 6vw;
+    box-shadow: 1vw 1vw 3vw grey;
+    height: 70vw;
+    width: 80%;
+    text-align: center;
+    border-radius: 2vw 8vw;
+    overflow: auto;
+}
+.loghead{
+     font-family: E;
+     font-size: 6vw;
+     margin-top: 2vw;
+}
+
+
+.inputgrp{
+    width: 80%;
+    height: 4vw;
+    background: gainsboro;
+    margin-top: 8vw;
+    margin-bottom: 0vw;
+    font-size: 3vw;
+    
+}
+.checkbtncont{
+    font-size: 3vw;
+    margin-top: 8vw;
+    text-align: left;
+    width: 80%;
+    position: relative;
+    left: 6vw;
+  
+    
+}
+.checkbtn{
+    height: 4vw;
+    width: 4vw;
+    margin: 2vw 2vw 0vw 0vw;
+}
+.logbtn{
+    
+    
+    border-radius: 1.4vw;
+    text-align: center;
+    color: white;
+    background: grey;
+    border: solid black 0.5vw;
+    margin-top: 3vw;
+    height: 5vw;
+    width: 14vw;
+    font-size: 3vw;
+    text-decoration: none;
+
+}
+.forget{
+    position: relative;
+    top: 30vw;
+    left: 12vw;
+    margin-top: 5vw;
+    font-size: 3vw;
+    color: black;
+    text-decoration: none;
+}
+
+.forget1{
+    position: relative;
+    top: 32vw;
+    left: 12vw;
+    margin-top: 5vw;
+    font-size: 3vw;
+    color: black;
+    text-decoration: none;
 }
